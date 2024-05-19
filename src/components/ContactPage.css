@@ -1,0 +1,49 @@
+/* src/components/ContactPage.css */
+.contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    width: 510px;
+    flex-direction: column;
+    padding:20px;
+    gap: 15px;
+  }
+  
+  .contact-form label {
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .thank-you-message {
+    text-align: center;
+  }
+  
