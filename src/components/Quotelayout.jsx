@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import refresh from './images/refreshicon.png';
 import copy from './images/copy.png';
 import './Quotelayout.css';
