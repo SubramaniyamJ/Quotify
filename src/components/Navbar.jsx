@@ -12,7 +12,7 @@ const Navbar = () => {
     return( 
         <div className="navbar">
             <NavLink to = "/" style={{display:"flex", textDecoration:'none', color:'white'}}>
-                <img src = {logo}/>            
+                <img src = {logo} alt="logo"/>            
                 <div>Quotify</div>
             </NavLink>
             <div className="wrapper">

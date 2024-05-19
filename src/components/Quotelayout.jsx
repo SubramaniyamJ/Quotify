@@ -51,10 +51,10 @@ export const Quotelayout = () => {
                     <div className='author'>{"-  " + response.author}</div>
                     <hr style={{ width: '90%' }}></hr>
                     <div className='refreshbox'>
-                        <img className='twitter' onClick={() => twitterRedirect(response)} src={twitter} />
+                        <img className='twitter' onClick={() => twitterRedirect(response)} src={twitter} alt='twitter' />
                         <div style={{ paddingTop: '10px' }}>
-                            <img className='copy' onClick={() => copyQuote(response)} src={copy} />
-                            <img className='refresh' src={refresh} onClick={getQuote}></img>
+                            <img className='copy' onClick={() => copyQuote(response)} src={copy} alt='copy'/>
+                            <img className='refresh' src={refresh} onClick={getQuote} alt='load'></img>
                         </div>
                     </div>
 
