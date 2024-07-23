@@ -8,8 +8,8 @@ import { Box } from '@mui/material';
 
 export const Quotelayout = () => {
     const [response, setresponse] = useState({
-        quote: "finding a Quote .......",
-        author: "quotify"
+        quote: "Verses are like honeycomb: they give sweetness to the soul and health to the body.",
+        author: "Proverbs 16:24"
     });
     const [isLoading, setLoading] = useState(false);
 
